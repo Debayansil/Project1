@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+  <!-- <div class="section1" id="section1" onclick="show()">
+        <p>HI this is section 1!</p>
+    </div>
+
+
+    <div class="section2 section1">
+        <p>HI this is section 2!</p>
+    </div>
+
+
+    <div class="section3">
+        <p>HI this is section 3!</p>
+    </div>
+
+    
+    <div id="section4" class="section4">
+        <p>This is our first ID!</p>
+    </div>
+
+
+    <div class="section5">
+        <div class="sub-section5">
+            <p>HI</p>
+        </div>
+
+    </div>
+
+
+    <input type="number" id="no1">
+   <input type="number" id="no2">
+
+    <button onclick="getValue()">Submit</button> -->
+
+
+
+
+
+  <!-- NavBar Start -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbarr</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- NavBar End -->
+
+
+  <!-- Carousel Start -->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active ">
+        <img src="https://static.toiimg.com/thumb/msid-123689342,width-1280,height-720,resizemode-4/123689342.jpg"
+          class="d-block w-100 h-100" alt="...">
+        <div class="carousel-caption d-none d-md-block carousel-content">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://t3.ftcdn.net/jpg/01/55/99/92/360_F_155999293_9wq99XwO1JTaAHnM174SEuxQlyLTBTAA.jpg"
+          class="d-block w-100 h-100" alt="...">
+        <div class="carousel-caption d-none d-md-block carousel-content">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVkaWNhdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
+          class="d-block w-100 h-100" alt="...">
+        <div class="carousel-caption d-none d-md-block carousel-content">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Carousel End -->
+
+
+  <!-- Showcasing Product Start -->
+
+  <section class="all-products ">
+
+    <div class="container mt-5">
+      <!-- Each row can have 12-column sections -->
+      <div class="row">
+
+        <div class="card col-md-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFc2Mgb86_GMhPtyauBzGePogK9I0GryBWBQ&s"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Paracetamol</h5>
+            <p class="card-text">Paracetamol is a widely used over-the-counter medication primarily prescribed to reduce
+              fever and relieve mild-to-moderate pain. It works by blocking pain messengers in the central nervous
+              system, making it a household staple for managing headaches, muscle aches, and cold symptoms..</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card col-md-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlPtaZdDOROlztYc_Wl8nOemj2LCIs5hDIlw&s"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Amoxicillin</h5>
+            <p class="card-text">Amoxicillin is a widely prescribed penicillin-type antibiotic used to treat a variety
+              of bacterial infections, such as pneumonia, tonsillitis, and ear or urinary tract infections. It works by
+              stopping the growth of bacteria, making it highly effective against bacterial illnesses but completely
+              ineffective against viral infections like the common cold or flu..</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card col-md-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpGNqEEfz8vu9PvmInMhXDdkj8tFbPbpM7Rw&s"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Arnica</h5>
+            <p class="card-text">Arnica is a popular homeopathic medicine derived from a mountain flower, primarily used
+              topically to reduce swelling, soothe sore muscles, and speed up the healing of bruises. It is widely
+              favored by athletes and individuals seeking a natural remedy for minor aches, sprains, and post-injury
+              recovery..</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Showcasing Product End -->
+  <!-- <label for="username">Enter your username: </label>
+<input type="text" name="username" id="" placeholder="Enter you name here: "> -->
+
+  <!-- Form start -->
+
+  <section class="contact_form container mt-5 ">
+    <h1 class="text-center">
+      CONTACT FORM
+    </h1>
+    <form action="" method="post">
+      <div class="mb-3">
+        <label for="Name" class="form-label">NAME</label>
+        <input type="text" class="form-control" id="Name" placeholder="debayan">
+      </div>
+      <div class="row">
+        <div class=" col-md-6 mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class=" col-md-6 mb-3">
+          <label for="Phone number" class="form-label">Phone number</label>
+          <input type="text" class="form-control" id="Phone number" placeholder="8653392667">
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Enter the name of medicine you want to buy</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+      </div>
+    </form>
+  </section>
+
+
+
+
+  <!-- Form End -->
+  </br>
+
+
+  <!-- ABOUT US SECTION START -->
+  <!-- <div class="aboutus">
+    <h1>ABOUT US</h1>
+    <img src="https://waylonehealthcare.in/wp-content/uploads/2025/02/Top-12-Pharma-Companies-in-Chhattisgarh.jpg">
+
+    <p>
+
+      <b>
+        "Our ultimate measure of success is not found in a laboratory or on a balance sheet, but in the lives we improve
+        and the hope we restore."</br>
+
+        Welcome to SUN PHARMACEUTICALS.,</br>
+
+        When we opened our doors in [Year Founded], we were driven by a singular, unwavering belief: everyone deserves
+        access to a healthier tomorrow.</br>
+        Today, as I look at the incredible work being done by our scientists, researchers, and manufacturing teams, that
+        belief remains the foundation of everything we do.</br>
+        The pharmaceutical industry is uniquely challenging, requiring immense patience, precision, and dedication.</br>
+        Yet, it is also uniquely rewarding. Behind every formula we develop and every clinical trial we conduct is a
+        patient waiting for an answer. </br>
+        Whether we are pioneering breakthrough treatments in oncology or ensuring the accessible supply of essential
+        medicines, our focus is firmly on the people who rely on us.
+      </b>
+    </p>
+
+
+
+
+  </div> -->
+  <!-- ABOUT US END -->
+
+  <!-- ABOUT US 2 -->
+
+  <div class="aboutus2  container ">
+    <h1 class="text-center mb-4">ABOUT US</h1>
+    <div class="row ">
+
+      <div class="col-md-4">
+        <img src="https://waylonehealthcare.in/wp-content/uploads/2025/02/Top-12-Pharma-Companies-in-Chhattisgarh.jpg"
+          alt="" height=200 width=300>
+      </div>
+
+      <div class="col-md-8">
+        <p>
+          "Our ultimate measure of success is not found in a laboratory or on a balance sheet, but in the lives we
+          improve and the hope we restore."
+          Welcome to SUN PHARMACEUTICALS.,
+          When we opened our doors in [Year Founded], we were driven by a singular, unwavering belief: everyone deserves
+          access to a healthier tomorrow.
+          Today, as I look at the incredible work being done by our scientists, researchers, and manufacturing teams,
+          that belief remains the foundation of everything we do.
+          The pharmaceutical industry is uniquely challenging, requiring immense patience, precision, and dedication.
+          Yet, it is also uniquely rewarding. Behind every formula we develop and every clinical trial we conduct is a
+          patient waiting for an answer.
+          Whether we are pioneering breakthrough treatments in oncology or ensuring the accessible supply of essential
+          medicines, our focus is firmly on the people who rely on us.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  </br>
+  <!-- TEAM SECTION START -->
+  <div class="teamsection mt-5">
+    <h1 class="text-center mb-4">
+      TEAM SECTION
+    </h1>
+
+    <div class="container ">
+
+      <div class="row team  ">
+
+        <div class="card col-md-3">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdgx_6KNiUtc_PzUY525SFXvkrmBX8Wt9XSg&s"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">R&D TEAM HEAD</h5>
+            <p class="card-text">PRIYAM ROY.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-md-3">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_6AXqg1sFHK4zC0now4ObToFH8RfJ1X_SrQ&s"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CLINICAL RESEARCH AND MEDICAL AFFAIRS HEAD</h5>
+            <p class="card-text">DR SWAPNIL BEJ.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-md-3">
+          <img
+            src="https://imgproxy.attic.sh/insecure/f:webp/h:180/q:90/w:180/plain/https://attic.sh/rs26a2yqt0i8hy2jfdsdruvbrev9"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">REGULATORY AFFAIRS AND QUALITY HEAD</h5>
+            <p class="card-text">DR AYUSH DAS.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-md-3">
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/058/661/711/non_2x/friendly-healthcare-consultant-emoji-with-thumbs-up-in-isolated-3d-render-png.png"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MANUFACTURING AND SUPPLY CHAIN HEAD</h5>
+            <p class="card-text">SARTHAK DEY.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- TEAM SECTION END -->
+
+  </br>
+  <!-- FREQUENTLY ASKED QUESTIONS START -->
+  <div class="faq container">
+    <h1 class="mb-4">FREQUENTLY ASKED QUESTIONS </h1>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            1.What is the difference between a Brand-Name drug and a Generic drug?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>ANSWER:</strong> A brand-name drug is the original medicine developed and patented by a company. A
+            generic drug is an identical, lower-cost copy made by other companies after the original patent expires..
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            2.What does "GMP" stand for, and why is it important?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>TANSWER:</strong>Good Manufacturing Practices. These are strict regulatory standards that pharma
+            companies must follow to ensure medicines are consistently produced, safe, and of high quality.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            3.What is an API (Active Pharmaceutical Ingredient)?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>ANSWER:</strong> The API is the primary chemical or biological ingredient in a drug that actually
+            produces the intended health effect or cures the disease.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            4. Why does it take so long for a new drug to hit the market?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>ANSWER:</strong> A new drug usually takes 10 to 12 years because it must undergo rigorous
+            multi-phase clinical trials, lab testing, and strict regulatory approvals (like the FDA) to guarantee human
+            safety and effectiveness.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            5. What is a PCD Pharma Franchise?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>ANSWER:</strong>Propaganda Cum Distribution. It is a business model where a pharma company grants
+            marketing and distribution rights for its products to an individual or distributor in a specific geographic
+            area.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- FREQUENTLY ASKED QUESTION END -->
+
+
+    </br>
+
+    <!-- FOOTER START -->
+    <footer>
+
+      <div class="myfooter container mt-5  ">
+        <div class="row ">
+          <div class="col-md-3">
+            <img src=" assets/logo.jpg" height=200 width=240>
+
+          </div>
+          <div class="col-md-3">
+            <pre>
+     <b> Shop</b>
+    
+      Medicines
+
+      Food nutrients
+
+      Lotions
+
+    </pre>
+
+          </div>
+          <div class="col-md-3 mb-6">
+            <pre>
+    <b>
+      Learn
+    </b>
+    Working of medicines
+    
+    The mechanism of emzymes
+
+
+
+    </pre>
+
+          </div>
+          <div class="col-md-3">
+            <pre>
+   <b>  Companies</b>
+
+   Sun PHARMACEUTICALS
+
+   Cipla 
+
+   Dr.Reddy's
+
+</pre>
+
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+
+
+    </footer>
+  </div>
+  <!-- FOOTER END  -->
+ </div>
+</body>
+     <script src="scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+</html>

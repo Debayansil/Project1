@@ -1,0 +1,94 @@
+/* .section1, .section2 {
+    color: red;
+} */
+
+
+.section1 {
+    color: red;
+}
+
+
+.section2 {
+     font-size: 90px;
+}
+
+
+#section4 {
+    color: yellow;
+}
+
+.section4 {
+    color: orchid;
+}
+
+.section5 .sub-section5 p {
+
+}
+
+
+.section5 {
+
+    .sub-section5 {
+
+        p {
+
+            
+        }
+    }
+}
+
+
+.carousel-text-color{
+    color: rgb(5, 5, 65) !important;
+}
+.carousel-item
+{
+    height:80vh;
+}
+
+.carousel-content {
+    /* border: 1px solid black; */
+    width: fit-content;
+    padding: 20px;
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    margin: auto;
+    color:black !important;
+}
+.aboutus h1
+{
+text-align: center;
+}
+.aboutus img
+{
+    
+    
+    float: left;
+    margin:50px 130px 550px 80px;
+     /* Adds space between the text and the image */
+    width: 20%;
+    
+
+}
+.aboutus b
+{
+    padding:20px ;
+    margin:auto;
+    color: red;
+}
+
+
+.faq h1
+{
+    text-align: center;
+}
+
+    
+    
+
+
+
+
+
+
+
